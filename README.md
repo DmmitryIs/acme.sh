@@ -3,7 +3,7 @@ Install wildcard ssl with acme.sh manually
 
 1. Install acme.sh
 
-2. Cmd:
+2. Issue ssl:
 ```
 acme.sh --issue -d domain.com -d '*.domain.com' --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
